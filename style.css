@@ -63,7 +63,7 @@
     right: 14%;
     bottom: 41vb;
 }
-@media (min-width: 640px) {
+/* @media (min-width: 640px) {
     .main{
         background: url(devil.jpg);
         background-size: cover;
@@ -379,3 +379,4 @@
     bottom: 41vb;
 }
 }
+ */
