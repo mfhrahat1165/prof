@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: url(devil.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-self: self-start;
+}
+.navbar{
+    background-color: #7b3e4a;;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-right: 10px;
+    border-radius: 45%;
+    transition-duration: 10s;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar ul{
+    overflow: auto;
+    display: flex;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgba(66, 4, 7, 0.808);
+    font-size: 20px;
+    padding: 2px;
+}
+:hover.navbar ul li a {
+    color: #0000007a;
+    background-color: #4a07c746;
+    border-radius: 30%;
+    transition: 1s;
+
+}
+.info{
+    color: #b31444;
+    font-size: 20px;
+}
+.info{
+    height: 36%;
+    width: 89vw;
+    margin: 10px;
+    position: absolute;
+    bottom: 36vb;
+    right: 7%;
+}
+.infoimg{
+   height: 42%;
+    width: 41vw;
+    display: flex;
+    position: absolute;
+    right: 14%;
+    bottom: 41vb;
+}
